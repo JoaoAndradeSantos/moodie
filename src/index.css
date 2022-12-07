@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-primary {
+  @apply py-2 px-3 bg-violet-800 hover:bg-violet-700 rounded-md font-semibold text-white disabled:opacity-60 disabled:bg-violet-800 disabled:cursor-not-allowed;
+}
+
+.button-secondary {
+  @apply py-2 px-3 bg-white/10 hover:bg-white/20 rounded-md font-semibold text-white disabled:opacity-60 disabled:bg-white/10 disabled:cursor-not-allowed;
+}
